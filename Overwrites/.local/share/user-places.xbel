@@ -23,18 +23,6 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="file:///home/user/Documents">
-  <title>Documents</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="folder-documents"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1746858381/2</ID>
-    <isSystemItem>true</isSystemItem>
-   </metadata>
-  </info>
- </bookmark>
  <bookmark href="file:///home/user/Downloads">
   <title>Downloads</title>
   <info>
