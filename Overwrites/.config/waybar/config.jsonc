@@ -18,7 +18,7 @@
 
 	"modules-left": ["custom/padd","custom/l_end","hyprland/workspaces","hyprland/window","custom/r_end","custom/padd"],
 	"modules-center": ["custom/padd","custom/l_end","clock","custom/r_end","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","cpu","memory","custom/r_end","custom/l_end","tray","custom/updates","battery","custom/power","custom/r_end","custom/padd"],
+	"modules-right": ["custom/padd","custom/l_end","cpu","memory","custom/r_end","custom/l_end","tray","custom/updates","pulseaudio","battery","custom/power","custom/r_end","custom/padd"],
 
 
 // sourced from modules based on config.ctl //
@@ -106,18 +106,32 @@
             "(.*) - Code - OSS": "$1 󰨞",
             "(.*)Code - OSS": "Code 󰨞",
             "(.*) — Dolphin": "$1 󰉋",
-            "(.*)Spotify": "Spotify 󰓇",
-            "(.*)Steam": "Steam 󰓓",
-            "(.*) - Discord": "$1  ",
-            "(.*)Netflix": "Netflix 󰝆 ",
-            "(.*) — Google chrome": "$1  ",
-            "(.*)Google chrome": "Google chrome  ",
             "(.*) — Github": "$1  ",
             "(.*)Github": "Github ",
-            "(.*)Spotify Free": "Spotify 󰓇",
-            "(.*)Spotify Premiun": "Spotify 󰓇",
         },
-        "max-length": 50
+        "max-length": 30
+    },
+
+    "pulseaudio": {
+        "format": "{icon} {volume}",
+        "rotate": 0,
+        "format-muted": "婢",
+        "on-click": "pavucontrol -t 3",
+        "on-click-right": "volumecontrol.sh -s ''",
+        "on-click-middle": "volumecontrol.sh -o m",
+        "on-scroll-up": "volumecontrol.sh -o i",
+        "on-scroll-down": "volumecontrol.sh -o d",
+        "tooltip-format": "{icon} {desc} // {volume}%",
+        "scroll-step": 5,
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        }
     },
 
     "custom/updates": {
