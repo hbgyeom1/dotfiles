@@ -1,9 +1,14 @@
 # Dotfiles
-
+## Install
 ```bash
 git clone https://github.com/hbgyeom1/Dotfiles.git
 cd ~/Dotfiles
 ```
 ```bash
 ./install.sh
+```
+
+## Fix
+```bash
+sudo vim /etc/sddm.conf.d/the_hyde_project.conf
 ```
