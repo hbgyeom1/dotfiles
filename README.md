@@ -18,3 +18,9 @@ vim .user.zsh
 ```bash
 vim ~/.config/kitty/kitty.conf
 ```
+```bash
+vim ~/.config/waybar/style.css
+```
+```bash
+vim ~/.config/waybar/config.jsonc
+```
