@@ -39,3 +39,6 @@ vim ~/.config/hypr/userprefs.conf
 ```bash
 vim ~/.config/hypr/keybindings.conf
 ```
+```bash
+vim ~/.local/share/user-places.xbel
+```
