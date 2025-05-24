@@ -33,3 +33,6 @@ vim ~/.config/waybar/style.css
 ```bash
 vim ~/.config/waybar/config.jsonc
 ```
+```bash
+vim ~/.config/hypr/userprefs.conf
+```
