@@ -16,6 +16,15 @@ sudo vim /etc/sddm.conf.d/the_hyde_project.conf
 vim .user.zsh
 ```
 ```bash
+vim ~/.local/lib/hyde/wbarconfgen.sh
+```
+```bash
+vim ~/.local/lib/hyde/wbarstylegen.sh
+```
+```bash
+vim ~/.local/share/hyde/hyprland.conf
+```
+```bash
 vim ~/.config/kitty/kitty.conf
 ```
 ```bash
