@@ -36,3 +36,6 @@ vim ~/.config/waybar/config.jsonc
 ```bash
 vim ~/.config/hypr/userprefs.conf
 ```
+```bash
+vim ~/.config/hypr/keybindings.conf
+```
