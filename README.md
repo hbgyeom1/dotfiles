@@ -44,3 +44,9 @@ vim ~/.config/hypr/keybindings.conf
 ```bash
 vim ~/.local/share/user-places.xbel
 ```
+```bash
+vim ~/.local/share/applications/obsidian.desktop
+```
+```bash
+vim ~/.local/share/applications/code-oss.desktop
+```
