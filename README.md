@@ -7,7 +7,9 @@ cd ~/Dotfiles
 ```bash
 ./install.sh
 ```
-
+```bash
+./setup.sh
+```
 ## Fix
 ```bash
 sudo vim /etc/sddm.conf.d/the_hyde_project.conf
