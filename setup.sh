@@ -5,3 +5,7 @@ rm -rf ~/.config/nvim/.git
 
 sudo systemctl enable --now docker
 sudo usermod -aG docker $USER
+
+mkdir -p ~/.local/share/applications
+cp /usr/share/applications/obsidian.desktop ~/.local/share/applications/obsidian.desktop
+cp /usr/share/applications/code-oss.desktop ~/.local/share/applications/code-oss.desktop
