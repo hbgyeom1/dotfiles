@@ -12,3 +12,9 @@ cd ~/Dotfiles
 ```bash
 sudo vim /etc/sddm.conf.d/the_hyde_project.conf
 ```
+```bash
+vim .user.zsh
+```
+```bash
+vim ~/.config/kitty/kitty.conf
+```
