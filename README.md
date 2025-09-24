@@ -7,3 +7,7 @@ ln -s ~/.dotfiles/vimrc ~/.vimrc
 # For Windows
 ```pwsh
 ```
+
+```vim
+:PlugInstall
+```
