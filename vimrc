@@ -10,3 +10,4 @@ let g:lightline={'colorscheme':'onedark'}
 colorscheme onedark
 set clipboard=unnamed belloff=all nobackup nowritebackup noswapfile
 set number shiftwidth=2 scrolloff=8
+set undofile undodir=~/.vim/undo
